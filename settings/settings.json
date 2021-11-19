@@ -1,0 +1,20 @@
+{
+    "printer": [
+        {
+            "name": "Ender 3",
+            "bed_x": "200",
+            "bed_y": "200",
+            "bed_z": 200,
+            "layer_height": "0.12"
+        }
+    ],
+    "user": [
+        {
+            "max_x": "50",
+            "max_y": "100",
+            "z_scale": 1.2,
+            "thickness": "3",
+            "output_path": "STLS/"
+        }
+    ]
+}
