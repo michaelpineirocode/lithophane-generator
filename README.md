@@ -55,7 +55,7 @@ To edit the **temporary** settings, adjust the values on the main menu. These wi
 ## Running
 
 Once the settings are filled out, you are good to go! Make sure that you include the file name. You can try with one of my example files, in this case I will be using “dmb.jpg”.
-
+![](https://github.com/michaelpineirocode/lithophane-generator/blob/main/gitimages/Screen%20Shot%202021-11-19%20at%2011.58.56%20AM.png)
 
 To generate a lithophane, click “Generate Lithophane!” and it will begin! The window will close but there will still be some output to the terminal / python interpreter.
 \
@@ -72,16 +72,16 @@ After all the calculations are done, an STL file will be outputted to the “STL
 **NOTE:** The outputted STL is not automatically to scale. The final result is much larger than the values that are inputted. However, the result is **mathematically and geometrically** optimized for the values given at the beginning. All this means that the file will need to be scaled down in a slicer, but the ratio and proportions will be **mathematically and geometrically correct**.
 
 1.) Start by loading the STL into a slicer. For this example I will be using Ultimaker Cura.
-
+![](https://github.com/michaelpineirocode/lithophane-generator/blob/main/gitimages/Screen%20Shot%202021-11-19%20at%2011.46.42%20AM.png)
 2.) Center the STL to the center of the bed
-
+![](https://github.com/michaelpineirocode/lithophane-generator/blob/main/gitimages/Screen%20Shot%202021-11-19%20at%2011.47.52%20AM.png)
 3.) Turn **OFF** uniform scaling and scale to the dimensions desired in the beginning (Max X is X, May Y as Y, thickness as Z). This will make the model the desired size.
-
+![](https://github.com/michaelpineirocode/lithophane-generator/blob/main/gitimages/Screen%20Shot%202021-11-19%20at%2011.50.12%20AM.png)
 4.) Make sure the layer height is the same as previously indicated.
-
+![](https://github.com/michaelpineirocode/lithophane-generator/blob/main/gitimages/Screen%20Shot%202021-11-19%20at%2011.50.49%20AM.png)
 5.) Make sure to disable supports and enable *“Z hop when retracted”* and *“Enable Retraction”*
-
+![](https://github.com/michaelpineirocode/lithophane-generator/blob/main/gitimages/Screen%20Shot%202021-11-19%20at%2011.52.09%20AM.png)
 6.) Slice and save the file. This may take up to a minute.
-
+![](https://github.com/michaelpineirocode/lithophane-generator/blob/main/gitimages/Screen%20Shot%202021-11-19%20at%2011.53.38%20AM.png)
 ### Happy printing!
 
